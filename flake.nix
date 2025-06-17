@@ -77,7 +77,7 @@
       runScriptPrefix = ''
         export QT_QPA_PLATFORM=xcb
         export LD_PRELOAD=/lib/libstdc++.so
-        export LD_LIBRARY_PATH=/usr/llib/xorg/modules/dri:$LD_LIBRARY_PATH
+        export LD_LIBRARY_PATH=/usr/lib/xorg/modules/dri:$LD_LIBRARY_PATH
         export INSTALL_DIR=$HOME/Vault/builds/matlab
       '';
     in
